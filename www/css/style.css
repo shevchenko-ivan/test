@@ -21,7 +21,7 @@ header{
     background-color: rgb(46, 204, 113);
 }
 
-header h1 {
+header p {
     font-family: 'Pacifico', cursive;
     font-size: 50pt;
     color: #fff;
@@ -29,6 +29,6 @@ header h1 {
     margin-left: 325px;
 }
 
-header h1 span{
+header p span{
     color: rgb(96, 174, 99);
 }

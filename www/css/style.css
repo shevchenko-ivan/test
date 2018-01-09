@@ -34,6 +34,7 @@ header .logo span{
 }
 
 header p{
+    font-family: 'Helvetica', cursive;
     width: 453px;
     height: 59px;
     color: #ffffff;

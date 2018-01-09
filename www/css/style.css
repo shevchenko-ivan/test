@@ -46,7 +46,7 @@ header p {
 }
 
 header .hand {
-    margin-left: 59px;
+    margin-left: 69px;
     margin-top: 83px;
 }
 
@@ -125,7 +125,7 @@ main .futures p:nth-child(3) {
     font-size: 22px;
     font-weight: 400;
     line-height: 18px;
-    margin-top: 59px;
+    margin-top: 60px;
     margin-left: 10px;
 }
 
@@ -166,4 +166,57 @@ main .futures p:nth-child(3) {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 145px;
+}
+
+video {
+    width: 500px;
+    height: 307px;
+    margin-top: 60px;
+    margin-left: 84px;
+}
+
+footer .testimonials {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .testimonials p:nth-child(1) {
+    width: 825px;
+    height: 47px;
+    color: #848484;
+    font-family: "Helvetica";
+    font-size: 18px;
+    font-style: italic;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 26px;
+}
+
+footer .testimonials p:nth-child(2), .getInThoch {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+}
+
+footer .face{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+    margin-bottom: 59px;
+}
+
+footer .face img{
+    filter: gradient(startColorstr='#fcecfc');
+    float: left;
+    margin-left: 5px;
+}
+
+footer .face img :hover {
+    filter: Alpha(opacity=50);
+    background-color:  #2ecc71;
 }

@@ -2,10 +2,6 @@
     padding: 0;
     margin: 0;
 }
-li a{
-    text-decoration: none;
-
-}
 
 .topLine{
     width: 100%;
@@ -49,7 +45,7 @@ header p{
     font-size: 24px;
 }
 
-header img{
+header .hand{
     width: 439px;
     height: 505px;
     margin-left: 59px;
@@ -60,22 +56,25 @@ header .icons{
     margin-left: 115px;
 }
 
-header .icon{
+header .icons a{
     width: 53px;
     height: 53px;
+    text-decoration: none;
     background-color: rgba(3, 3, 3, 0.6);
     border-radius: 100%;
     float: left;
     margin-left: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-header .icon::before{
-font-size: 30px;
-      content: "ss";
-      display: flex;
-      align-items: center;
-      justify-content: center;
+header .icons a{
+    font-family: 'icomoon';
+    color: rgba(244, 244, 244, 0.6);
+    font-size: 25px;
 }
-.icon-android:before {
-  content: "\eac0";
+header .icons a:hover{
+    color: rgba(244, 244, 244, 1);
+    background-color: rgb(46, 204, 113);
 }

@@ -6,11 +6,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/android/icomoon.eot?yaydzb');
-  src:  url('fonts/icomoon.eot?yaydzb#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?yaydzb') format('truetype'),
-    url('fonts/icomoon.woff?yaydzb') format('woff'),
-    url('fonts/icomoon.svg?yaydzb#icomoon') format('svg');
+  src:  url('../fonts/android/icomoon.eot?yaydzb');
+  src:  url('../fonts/android/icomoon.eot?yaydzb#iefix') format('embedded-opentype'),
+    url('../fonts/android/icomoon.ttf?yaydzb') format('truetype'),
+    url('../fonts/android/icomoon.woff?yaydzb') format('woff'),
+    url('../fonts/android/icomoon.svg?yaydzb#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }

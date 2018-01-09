@@ -11,7 +11,6 @@
 
 header {
     width: 100%;
-    height: 600px;
     background: url(../img/header/head.jpg) no-repeat top center / cover;
     background-size: 100% auto;
 }
@@ -64,7 +63,7 @@ header .icons a {
     border-radius: 100%;
     float: left;
     margin-left: 14px;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
 }
@@ -78,4 +77,38 @@ header .icons a {
 header .icons a:hover {
     color: rgba(244, 244, 244, 1);
     background-color: rgb(46, 204, 113);
+}
+
+ /*************************************** main *************************************/
+main .futures {
+    display: grid;
+    justify-items: center;
+    margin-top: 60px;
+}
+
+main .icons {
+    width: 98px;
+    height: 98px;
+    border-radius: 100%;
+    background-color: #2ecc71;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 31px;
+}
+
+main .futures p:nth-child(2) {
+    font-family: 'Raleway', sans-serif;
+}
+
+main .futures p:nth-child(3) {
+    width: 313px;
+    height: 42px;
+    color: #848484;
+    font-family: "Helvetica";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 58px;
 }

@@ -1,0 +1,46 @@
+@media screen and (max-width: 1200px) {
+    header .logo {
+        margin-left: 76px;
+    }
+    header p {
+        margin-left: 80px;
+    }
+    header .icons {
+        margin-left: 70px;
+    }
+    main .futures p:nth-child(3) {
+        font-size: 14px;
+    }
+    video {
+        margin-left: 10px;
+    }
+    .notified input {
+        width: 220px;
+        height: 45px;
+    }
+    .notified button {
+        width: 80px;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    header .logo {
+        margin-left: 0px;
+        font-size: 40px;
+    }
+    header p {
+        margin-left: 0px;
+        font-size: 19px;
+        margin-top: 10px;
+    }
+    header .icons {
+        margin-left: 0px;
+    }
+    main .futures p:nth-child(3) {
+        font-size: 12px;
+    }
+    .notified button {
+        margin-bottom: 0;
+    }
+}
